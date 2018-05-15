@@ -4,7 +4,14 @@ import java.math.BigDecimal;
 
 public enum CONTRACT {
   
-
+    // 正式链
+    SMC("2W6PbuBrGcB3EGFTK81sDfJmrMUTyXqta", "SMC_SimonsChainOfficial"),
+    LET("DuPQkPuKqD5NM2XwHJCjnZiiTs2GAJDLB", "LET_LinkEyeOfficial"),
+    BSC("57ucNVXMqPpdiBiVC72gTLJao4CobmMNy", "BSC_BlackstoneBlockchain"),
+    USC("2Z7MrZV2MP794MBX2Z8xVaB2sBj8RK3RH", "USD_Coin"),
+    // 测试链
+    @Deprecated
+    SMC_t("7w5yDZ5K4yxKjPwfn2seQjg8h6KLUwnCj", "SMC"),;
 
   public static final String TRANSFER_METHOD = "transfer_to";
 
